@@ -104,7 +104,7 @@
 
 
 
-### Coin Toss
+### Coin Toss <img src="./md-images/coin.jpg" width="48">
 
 #### * 개발자 : 
 
@@ -112,7 +112,7 @@
 
 
 
-### Number Guess
+### Number Guess <img src="./md-images/number.jpg" width="48">
 
 #### * 개발자 : 
 
@@ -120,7 +120,7 @@
 
 
 
-### Blackjack
+### Blackjack <img src="./md-images/blackjack.jpg" width="48">
 
 #### * 개발자 : 
 
