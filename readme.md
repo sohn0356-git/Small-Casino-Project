@@ -13,7 +13,12 @@
 ## 팀원
 
 * 김현수
-
+  * 사용 가능 언어: Python, C/C++, VHDL
+  * 사용 가능 툴: Matlab, Orcad
+  * 취미: 축구, 드라마/영화 보기
+  * 개발 분야: Embedded System, Machine Learning, Computer Vistion
+  * Blog : TBA
+  * Contact : kimhs1210@gmail.com
 
 
 
