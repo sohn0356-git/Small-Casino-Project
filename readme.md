@@ -20,7 +20,7 @@
   * 사용가능 언어 : Python, Java, C++
   * 취미 : 운동, 독서, 영화
   * 개발분야 : Embedded System, Android App Develop
-  * Blog : [sohn0356-git.github.io](sohn0356-git.github.io)
+  * Blog : [sohn0356-git.github.io](https://sohn0356-git.github.io)
   * Contact : sohn0356@naver.com
 
 
