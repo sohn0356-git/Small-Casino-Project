@@ -43,9 +43,7 @@
 
 ## 게임
 
-### Bulls and cows
-![baseball](md-images/baseball.png){: width="50" height="50"}
-
+### Bulls and cows <img src="./md-images/baseball.png" width="48">
 #### * 개발자 : 경주
 
 * 게임 설명 : 흔히 숫자야구라고 불리며 dealer가 random하게 제시한 4개의 숫자를 player가 맞추는 게임이다.
@@ -72,8 +70,7 @@
 
 
 
-### Hangman
-![rope](md-images/rope.png){: width="50" height="50"}
+### Hangman <img src="./md-images/rope.png" width="48">
 
 #### * 개발자 : 
 
