@@ -115,6 +115,11 @@
 
 ### Coin Toss <img src="./md-images/coin.jpg" height = "80" width="80">
 
+#### * 개발자 : 
+ * 게임 설명 :
+
+### Number Guess <img src="./md-images/number.jpg" height = "80" width="80">
+
 #### * 개발자 : 상범
 
 * 게임 설명 : 누구나 한 번은 해본 술게임: 간단하게 설명하면 소주병뚜껑에 있는 숫자 맞추기 게임입니다.
@@ -128,11 +133,6 @@
   2. 글자를 입력했을 때 처리하는 방법을 잘 모르겠다.
 
 
-### Number Guess <img src="./md-images/number.jpg" height = "80" width="80">
-
-#### * 개발자 : 
-
-* 게임 설명 :
 
 
 
