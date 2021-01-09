@@ -4,6 +4,8 @@
 
 ## 개요
 
+
+
 * 1조의 첫 팀 프로젝트
 * 각자 `Python`을 사용하여 한 개 이상의 게임을 만들고 그 게임들을 모아서 *Small Casino*를 개장해보았다.
 * 5가지 [게임](#게임)이 존재하고 추후에 더 추가될 수도 있다.
@@ -11,6 +13,8 @@
 
 
 ## 팀원
+
+
 
 * 김현수
   * 사용 가능 언어: Python, C/C++, VHDL
@@ -36,6 +40,8 @@
   * 취미 : 요리, 영화
   * 개발 분야 : 아직 고민중입니다.
   * Contact : morpheus3263@gmail.com
+  
+  
 
 
 * 한재영
@@ -43,6 +49,8 @@
 
 
 ## Rule
+
+
 
 * 카지노와 비슷한 환경을 조성하기 위해 모든 게임은 베팅시스템이 존재한다.
 * 게임을 시작하면 5천만원이 주어지고 원하는 게임을 플레이하며 돈을 잃을 수도 있고 얻을 수도 있다.
@@ -52,7 +60,12 @@
 
 ## 게임
 
+
+
+
+
 ### Bulls and Cows <img src="./md-images/baseball.png" height = "80" width="80">
+
 #### * 개발자 : 경주
 
 * 게임 설명 : 흔히 숫자야구라고 불리며 dealer가 random하게 제시한 4개의 숫자를 player가 맞추는 게임이다.
@@ -76,6 +89,8 @@
      2. 자리는 틀렸지만 player가 추측한 숫자가 dealer가 정한 숫자 중에 있을 경우 ball이다.
      3. 4 strike일 경우 게임이 끝나고 상금을 타게 된다.
      4. 아닐 경우 strike와 ball 카운트를 알려주고 턴이 끝난다.
+
+
 
 
 
@@ -113,10 +128,16 @@
 
 
 
+
+
 ### Coin Toss <img src="./md-images/coin.jpg" height = "80" width="80">
 
 #### * 개발자 : 
  * 게임 설명 :
+
+
+
+
 
 ### Number Guess <img src="./md-images/number.jpg" height = "80" width="80">
 
