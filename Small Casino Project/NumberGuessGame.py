@@ -14,7 +14,7 @@ def play():
             print("게임을 종료합니다.")
             break
 
-        elif guess.isdecimal() != True:
+        elif not guess.isdecimal() :
             print("잘못된 값을 입력하셨습니다.")
             continue
 
@@ -24,28 +24,25 @@ def play():
             print("잘못된 값을 입력하셨습니다.")
             continue
 
-        while True:
 
-            if  guess == number:
-                award += 1000
-                print("{0} 만원을 획득하셨습니다.\nGG\n축하합니다!!!".format(award))
-                break
-
-            if  guess > number:
-                print("DOWN")
-                award -= 500
-                print()
-                print("현재 상금: {0} 만원".format(award))
-                break
-
-            elif guess < number:
-                print("UP")
-                award -= 500
-                print()
-                print("현재 상금: {0} 만원".format(award))
-                break
-
+        if  guess == number:
+            award += 1000
+            print("{0} 만원을 획득하셨습니다.\nGG\n축하합니다!!!".format(award))
             return award
 
+
+        if  guess > number:
+            print("DOWN")
+            award -= 500
+            print()
+            print("현재 상금: {0} 만원".format(award))
+            continue
+
+        elif guess < number:
+            print("UP")
+            award -= 500
+            print()
+            print("현재 상금: {0} 만원".format(award))
+            continue
 
 
