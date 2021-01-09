@@ -30,7 +30,7 @@
   * 사용가능 언어 : Python, Java, C++
   * 취미 : 운동, 독서, 영화
   * 개발분야 : Embedded System, Android App Develop
-  * Blog : [sohn0356-git.github.io](https://sohn0356-git.github.io)
+  * Blog : [경주의 코딩일기](https://sohn0356-git.github.io)
   * Contact : sohn0356@naver.com
 
 
@@ -50,7 +50,7 @@
 
 ## Rule
 
-
+[]()
 
 * 카지노와 비슷한 환경을 조성하기 위해 모든 게임은 베팅시스템이 존재한다.
 * 게임을 시작하면 5천만원이 주어지고 원하는 게임을 플레이하며 돈을 잃을 수도 있고 얻을 수도 있다.
@@ -92,6 +92,8 @@
 
 
 
+****
+
 
 
 ### Hangman <img src="./md-images/rope.png" height = "80" width="80">
@@ -128,6 +130,8 @@
 
 
 
+****
+
 
 
 ### Coin Toss <img src="./md-images/coin.jpg" height = "80" width="80">
@@ -136,6 +140,8 @@
  * 게임 설명 :
 
 
+
+****
 
 
 
@@ -154,6 +160,8 @@
   2. 글자를 입력했을 때 처리하는 방법을 잘 모르겠다.
 
 
+
+**** 　
 
 
 
