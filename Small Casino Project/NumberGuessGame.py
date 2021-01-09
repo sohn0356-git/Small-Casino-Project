@@ -1,9 +1,11 @@
+import random
+
 def play():
     #1~ 99까지의 숫자 중 무작위로 하나를 선택합니다.
-    import random
+
     number = random.randrange(1, 100)
     print("랜덤게임~ game start")
-    award = 3000
+    award = 10
 
     # 1부터 99까지 숫자를 입력 하되 100이상이거나 0이하인 수를 제외합니다.
 
@@ -26,23 +28,23 @@ def play():
 
 
         if  guess == number:
-            award += 1000
-            print("{0} 만원을 획득하셨습니다.\nGG\n축하합니다!!!".format(award))
+            award += 20
+            print("{0}천만원을 획득하셨습니다.\nGG\n축하합니다!!!".format(award))
             return award
 
 
         if  guess > number:
             print("DOWN")
-            award -= 500
+            award -= 2
             print()
-            print("현재 상금: {0} 만원".format(award))
+            print("현재 상금: {0}천만원".format(award))
             continue
 
         elif guess < number:
             print("UP")
-            award -= 500
+            award -= 2
             print()
-            print("현재 상금: {0} 만원".format(award))
+            print("현재 상금: {0}천만원".format(award))
             continue
 
 
