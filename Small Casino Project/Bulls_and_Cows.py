@@ -5,14 +5,28 @@ def input_num():
     visited = [0] * 10
     ret = []
     try:
-        user_num = input("0~9의 중복되지 않는 숫자 4개를 입력하시오 : ").split()
-        for u in user_num:
-            u = int(u)
-            if 0 <= u and u <= 9 and visited[u]==0:
-                visited[u]=1
-                ret.append(u)
+        user_num = input("0~9의 중복되지 않는 숫자 4개를 입력하시오 : ")
+        if user_num.isdecimal() and len(user_num)==4:
+            user_num = int(user_num)
+            if user_num > 100 and user_num<10000:
+                while user_num>0:
+                    if user_num%10 not in ret:
+                        ret.append(user_num%10)
+                    else:
+                        return ret
+                    user_num = user_num // 10
+                if len(ret)==3 and 0 not in ret:
+                    ret.append(0)
+                ret.reverse()
+        else :
+            user_num = user_num.split(' ')
+            for u in user_num:
+                u = int(u)
+                if 0 <= u and u <= 9 and visited[u]==0:
+                    visited[u]=1
+                    ret.append(u)
     except:
-        print("다시 입력해주세요!")
+        return ret
     return ret
 
 def gen_num():
@@ -72,10 +86,8 @@ def play():
                     cnt_ball += 1
 
         if cnt_strike==4:
-            print("Congratulation %d번만에 맞추셨습니다!"%cnt)
+            print("Congratulation %d번만에 맞추셨습니다! 상금은 %d천만원입니다"%(cnt,award-cnt))
             return award-cnt
         else:
             print("%d Strike %d Ball" %(cnt_strike, cnt_ball))
         cnt += 1
-
-play()
