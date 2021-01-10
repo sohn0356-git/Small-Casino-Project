@@ -23,6 +23,8 @@ def init():
         http://wordfind.co.kr/word-length 사이트에서
         6글자로 이루어진 영단어를 크롤링하여 dict에 저장한다.
     """
+    global alphabet
+    global dict
     if len(alphabet)==0:
         for i in range(ord('a'),ord('z')+1):
             alphabet.append(chr(i))
@@ -68,6 +70,7 @@ def play():
            기록된 단어 : ca_i_o
 
     """
+    global dict
     init()
     award = 6
     cnt = 0
@@ -90,5 +93,3 @@ def play():
         if user_alpha not in target[0]:
             cnt += 1
             award -= 1
-
-play()
